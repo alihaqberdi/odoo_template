@@ -13,7 +13,7 @@ Setup Instructions
 1. Clone the repository
 
 ```bash
-git clone --depth 1 https://github.com/odoo/odoo.git
+git clone --depth 1 https://github.com/alihaqberdi/odoo_template.git
 ```
 
 2. Create a new postgres user with username: `odoo` and password: `odoo`
