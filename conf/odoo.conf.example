@@ -3,6 +3,6 @@ db_host = localhost
 db_port = 5432
 db_user = your_odoo_user
 db_password = your_odoo_user_password
-addons_path = odoo/addons,dev,third-party
+addons_path = addons
 http_port = 8069
 
