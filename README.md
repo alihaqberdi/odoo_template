@@ -18,6 +18,21 @@ sudo -u postgres psql
 ALTER USER odoo_user WITH password 'odoo';
 ```
 
+2. Rename the `conf/odoo.conf.example` file to `conf/odoo.conf` and change the user and password to the newly created
+   user and password.
+
+```txt
+[options]
+db_host = localhost
+db_port = 5432
+db_user = odoo_user
+db_password = odoo
+addons_path = odoo/addons,dev,third-party
+http_port = 8069
+```
+
+
+
 2. Create a new virtual environment
 
 ```bash
