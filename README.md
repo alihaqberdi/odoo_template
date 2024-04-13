@@ -26,9 +26,11 @@ ALTER USER odoo_user WITH password 'odoo';
 db_host = localhost
 db_port = 5432
 db_user = odoo_user
+db_name = your_db
 db_password = odoo
-addons_path = odoo/addons,dev,third-party
+addons_path = addons,third-party,custom_addons
 http_port = 8069
+
 ```
 
 

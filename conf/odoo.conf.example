@@ -2,7 +2,8 @@
 db_host = localhost
 db_port = 5432
 db_user = your_odoo_user
+db_name = your_db
 db_password = your_odoo_user_password
-addons_path = addons
+addons_path = addons,third-party,custom_addons
 http_port = 8069
 
